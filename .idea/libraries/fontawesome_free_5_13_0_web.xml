@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fontawesome-free-5.13.0-web">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/old/fontawesome-free-5.13.0-web.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
