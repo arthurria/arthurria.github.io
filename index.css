@@ -159,7 +159,6 @@ h1{
 }
 
 .pannel_content i{
-	position: float;
 	margin-bottom: 10px;
 }
 
@@ -187,7 +186,6 @@ h1{
 	}
 
 	.pannel_content i{
-		position: float;
 		margin-right: 3em;
 		margin-bottom: 10px;
 	}
@@ -214,7 +212,7 @@ h1{
 	}
 
 	.reco .pannel_content:nth-child(2){
-		margin-left: none;
+		margin-left: 0em;
 	}
 
 	.pannel_content_titre{
