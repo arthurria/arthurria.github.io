@@ -117,6 +117,7 @@ aside p{
 .pannel_content{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .pannel_content_date{
@@ -125,6 +126,10 @@ aside p{
 
 .pannel_content_titre{
 	flex: 5;
+}
+
+#separateur{
+	flex: 1;
 }
 
 .pannel h4{
@@ -149,10 +154,7 @@ aside p{
 .reco{
 	display: flex;
 	flex-wrap: wrap;
-}
-
-.reco .pannel_content:nth-child(2){
-	margin-left: 15em;
+	justify-content: space-around;
 }
 
 .bold{
@@ -167,7 +169,8 @@ aside p{
 	visibility: hidden;
 }
 
-@media (min-width: 1025px) and (max-width: 1370px) {
+@media (max-width : 1367px) {
+
 
 	body{
 		width: 100%;
@@ -181,11 +184,12 @@ aside p{
 	font-size: 1.2em;
 	}
 
+
 }
 
 
 
-@media (max-width: 1024px)
+@media (max-width: 480px)
 {
 	body{
 		width: 100%;
@@ -234,9 +238,6 @@ aside p{
 		font-size: 1em;
 	}
 
-	.reco .pannel_content:nth-child(2){
-		margin-left: 0em;
-	}
 
 	.pannel_content_titre{
 		margin-bottom: 4em;
